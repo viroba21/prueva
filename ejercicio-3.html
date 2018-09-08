@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="Efe.jpg" type="image/x-icon">
+    <meta name="width=device-width,initial-scale=1">
+
+    <script>
+        function varios()
+        {
+            Suma;
+            n1 = parseInt(formulario.txt_num.value);
+            n2 = parseInt(formulario.txt_num2.value);
+            formulario.txt_resultado.value=n1+n2;
+            Resta;
+            n1 = parseInt(formulario.txt_num.value);
+            n2 = parseInt(formulario.txt_num2.value);
+            formulario.txt_resultado2.value=n1-n2;
+        }
+    </script>
+</head>
+            
+            <body>
+            <form name="formulario">
+            <h1>Operaciones Basicas</h1>
+            <p>Numero 1:  <input type="text" name="txt_num" size="20">
+            </p>
+            <p>Numero 2:  <input type="text" name="txt_num2" size="20">
+            </p>
+            <p>Resultado Suma:  <input type="text" name="txt_resultado" size="20">
+            </p>
+            <p>Resultado Resta: <input type="text" name="txt_resultado2" size="20">
+            </p>
+            <p><input type="button" value="Aceptar" onclick="varios()">
+            </p>
+            </form>
+</body>
+</html>
