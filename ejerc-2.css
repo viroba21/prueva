@@ -1,0 +1,13 @@
+h2 {/* Selector elemento (HTML) */
+    color: red;
+    width: 250px;
+    border: 5px solid black;
+}
+#niveles {/* Selector de identidad (id)*/
+    background-color: rgb(6, 116, 243);
+    font-family: 'Oswald', sans-serif;
+}
+#niveles:hover {/* Selector de pseudo clase*/
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
