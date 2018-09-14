@@ -1,0 +1,49 @@
+h2 {/* Selector elemento (HTML) */
+    color: red;
+    width: 250px;
+    border: 5px solid black;
+}
+#niveles {/* Selector de identidad (id)*/
+    background-color: rgb(6, 116, 243);
+    font-family: 'Oswald', sans-serif;
+}
+#niveles:hover {/* Selector de pseudo clase*/
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#table1 {
+    width: 100%;
+    border: 1px solid #000;
+}
+td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+#menu {
+	position: absolute; left: 10px; top: 100px; width: 200px;
+}
+
+#menu h2 {
+	display: none;
+}
+
+#menu ul {
+	margin-left: 10px;
+}
+
+#menu li {
+	list-style-type: none;
+} 
+
+#ejer {
+	margin-left: 200px; margin-right: 200px;
+}
+
+#ejer div {
+    margin-left: 10px;
+}
