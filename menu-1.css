@@ -1,20 +1,16 @@
-h2 {/* Selector elemento (HTML) */
-    color: red;
-    width: 250px;
-    border: 5px solid black;
-}
-#niveles {/* Selector de identidad (id)*/
-    background-color: rgb(6, 116, 243);
+#niveles {
     font-family: 'Oswald', sans-serif;
 }
-#niveles:hover {/* Selector de pseudo clase*/
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
+#niveles:hover {
+    background-color:green;
+    color:gray;
 }
+
 #table1 {
     width: 100%;
     border: 1px solid #000;
 }
+
 td {
     width: 25%;
     text-align: left;
@@ -28,7 +24,7 @@ td {
 	position: absolute; left: 10px; top: 100px; width: 200px;
 }
 
-#menu h2 {
+#menu h3 {
 	display: none;
 }
 
@@ -46,4 +42,21 @@ td {
 
 #ejer div {
     margin-left: 10px;
+}
+
+.titulo {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+h3 {
+    color: rgb(255, 115, 0);
+    width:fit-content ;
+    border: 0px solid black;
+    font-family: 'Slabo 27px', serif;
+}
+
+.fijo {
+    position: fixed;
+    overflow:hidden;
 }
